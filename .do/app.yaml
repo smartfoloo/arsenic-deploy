@@ -1,0 +1,13 @@
+name: arsenic
+services:
+  - name: web
+    github:
+      repo: smartfoloo/arsenic-deploy
+      branch: main
+      deploy_on_push: true
+    environment_slug: node-js
+    build_command: npm install
+    run_command: node index.js
+    http_port: 5000
+    instance_size_slug: basic-xxs
+    instance_count: 1

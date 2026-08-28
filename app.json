@@ -1,0 +1,12 @@
+{
+  "name": "arsenic-deploy",
+  "description": "A deployable reverse-proxy front for arsenic.",
+  "repository": "https://github.com/smartfoloo/arsenic-deploy",
+  "keywords": ["proxy", "express", "arsenic"],
+  "env": {},
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  }
+}
